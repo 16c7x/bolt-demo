@@ -1,5 +1,5 @@
 # bolt-demo
-A quick bolt demo to fix some issues with the classroom machines.
+A quick bolt demo to fix some issues with the classroom Windows machines machines.
 
 # What does it do
 * Uses [chocolatey](https://chocolatey.org/) to install openssh.
