@@ -11,5 +11,5 @@ A quick bolt demo to fix some issues with the classroom Windows machines machine
 A git clone of this should give you everything you need, you just need to ensure all your target nodes are listed under **nodes** and set the **password** in the inventory.yaml
 
 # How to run it
-'''bolt script run fix.ps1 --targets windows'''
+**bolt script run fix.ps1 --targets windows**
 
