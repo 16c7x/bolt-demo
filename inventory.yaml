@@ -1,0 +1,11 @@
+groups:
+  - name: windows
+    nodes:
+      - #win#.classroom.puppet.com
+      - #win#.classroom.puppet.com
+    config:
+      transport: winrm
+      winrm:
+        user: administrator
+        password: <put the admin password here> 
+        ssl: false 
