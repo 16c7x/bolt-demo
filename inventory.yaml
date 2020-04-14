@@ -8,6 +8,47 @@ groups:
       password: <put your password here
       ssl: false
   targets:
-  - #win#.classroom.puppet.com
-  - #win#.classroom.puppet.com
-  - #win#.classroom.puppet.com
+  - 2246win1.classroom.puppet.com
+  - 2246win2.classroom.puppet.com
+  - 2246win3.classroom.puppet.com
+  - 2246win4.classroom.puppet.com
+  - 2246win5.classroom.puppet.com
+  - 2246win6.classroom.puppet.com
+  - 2246win7.classroom.puppet.com
+  - 2246win8.classroom.puppet.com
+  - 2246win9.classroom.puppet.com
+  - 2246win10.classroom.puppet.com
+  - 2246win11.classroom.puppet.com
+  - 2246win12.classroom.puppet.com
+  - 2246win13.classroom.puppet.com
+  - 2246win14.classroom.puppet.com
+  - 2246win15.classroom.puppet.com
+  - 2246win16.classroom.puppet.com
+  - 2246win17.classroom.puppet.com
+- name: linux
+  config: 
+    transport: ssh
+    ssh: 
+      user: centos
+      run-as: root
+      private_key: /path/to/key
+      host-key-check: false
+  targets:
+  - 2246nix1.classroom.puppet.com
+  - 2246nix2.classroom.puppet.com
+  - 2246win3.classroom.puppet.com
+  - 2246nix4.classroom.puppet.com
+  - 2246nix5.classroom.puppet.com
+  - 2246nix6.classroom.puppet.com
+  - 2246nix7.classroom.puppet.com
+  - 2246nix8.classroom.puppet.com
+  - 2246nix9.classroom.puppet.com
+  - 2246nix10.classroom.puppet.com
+  - 2246nix11.classroom.puppet.com
+  - 2246nix12.classroom.puppet.com
+  - 2246nix13.classroom.puppet.com
+  - 2246nix14.classroom.puppet.com
+  - 2246nix15.classroom.puppet.com
+  - 2246nix16.classroom.puppet.com
+  - 2246nix17.classroom.puppet.com
+  
