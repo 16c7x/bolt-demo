@@ -1,2 +1,3 @@
 choco install openssh
-choco update pdk
+choco upgrade pdk
+choco install googlechrome
