@@ -5,7 +5,7 @@ groups:
     transport: winrm
     winrm:
       user: administrator
-      password: <put your password here
+      password: <put your password here>
       ssl: false
   targets:
   - 2246win1.classroom.puppet.com
@@ -36,7 +36,7 @@ groups:
   targets:
   - 2246nix1.classroom.puppet.com
   - 2246nix2.classroom.puppet.com
-  - 2246win3.classroom.puppet.com
+  - 2246nix3.classroom.puppet.com
   - 2246nix4.classroom.puppet.com
   - 2246nix5.classroom.puppet.com
   - 2246nix6.classroom.puppet.com
