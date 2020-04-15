@@ -12,5 +12,6 @@ A git clone of this should give you everything you need, you just need to ensure
 **DO NOT INCLUDE THE HOST YOU ARE RUNNING THIS FROM IN THE INVENTORY**
 
 # How to run it
-**bolt script run fix.ps1 --targets windows**. 
+**bolt script run fix.ps1 --targets windows** 
+
 **bolt command run uptime --targets windows**
