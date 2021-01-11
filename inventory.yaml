@@ -8,23 +8,23 @@ groups:
       password: <put your password here>
       ssl: false
   targets:
-  - 2246win1.classroom.puppet.com
-  - 2246win2.classroom.puppet.com
-  - 2246win3.classroom.puppet.com
-  - 2246win4.classroom.puppet.com
-  - 2246win5.classroom.puppet.com
-  - 2246win6.classroom.puppet.com
-  - 2246win7.classroom.puppet.com
-  - 2246win8.classroom.puppet.com
-  - 2246win9.classroom.puppet.com
-  - 2246win10.classroom.puppet.com
-  - 2246win11.classroom.puppet.com
-  - 2246win12.classroom.puppet.com
-  - 2246win13.classroom.puppet.com
-  - 2246win14.classroom.puppet.com
-  - 2246win15.classroom.puppet.com
-  - 2246win16.classroom.puppet.com
-  - 2246win17.classroom.puppet.com
+  - 2285win1.classroom.puppet.com
+  - 2285win2.classroom.puppet.com
+  - 2285win3.classroom.puppet.com
+  - 2285win4.classroom.puppet.com
+  - 2285win5.classroom.puppet.com
+  - 2285win6.classroom.puppet.com
+  - 2285win7.classroom.puppet.com
+  - 2285win8.classroom.puppet.com
+  - 2285win9.classroom.puppet.com
+  - 2285win10.classroom.puppet.com
+  - 2285win11.classroom.puppet.com
+  - 2285win12.classroom.puppet.com
+  - 2285win13.classroom.puppet.com
+  - 2285win14.classroom.puppet.com
+  - 2285win15.classroom.puppet.com
+  - 2285win16.classroom.puppet.com
+  - 2285win17.classroom.puppet.com
 - name: linux
   config: 
     transport: ssh
@@ -34,21 +34,21 @@ groups:
       private_key: /path/to/key
       host-key-check: false
   targets:
-  - 2246nix1.classroom.puppet.com
-  - 2246nix2.classroom.puppet.com
-  - 2246nix3.classroom.puppet.com
-  - 2246nix4.classroom.puppet.com
-  - 2246nix5.classroom.puppet.com
-  - 2246nix6.classroom.puppet.com
-  - 2246nix7.classroom.puppet.com
-  - 2246nix8.classroom.puppet.com
-  - 2246nix9.classroom.puppet.com
-  - 2246nix10.classroom.puppet.com
-  - 2246nix11.classroom.puppet.com
-  - 2246nix12.classroom.puppet.com
-  - 2246nix13.classroom.puppet.com
-  - 2246nix14.classroom.puppet.com
-  - 2246nix15.classroom.puppet.com
-  - 2246nix16.classroom.puppet.com
-  - 2246nix17.classroom.puppet.com
+  - 2285nix1.classroom.puppet.com
+  - 2285nix2.classroom.puppet.com
+  - 22485nix3.classroom.puppet.com
+  - 2285ix4.classroom.puppet.com
+  - 2285nix5.classroom.puppet.com
+  - 2285nix6.classroom.puppet.com
+  - 2285nix7.classroom.puppet.com
+  - 2285nix8.classroom.puppet.com
+  - 2285nix9.classroom.puppet.com
+  - 2285nix10.classroom.puppet.com
+  - 2285nix11.classroom.puppet.com
+  - 2285nix12.classroom.puppet.com
+  - 2285nix13.classroom.puppet.com
+  - 2285nix14.classroom.puppet.com
+  - 2285nix15.classroom.puppet.com
+  - 2285nix16.classroom.puppet.com
+  - 2285nix17.classroom.puppet.com
   
