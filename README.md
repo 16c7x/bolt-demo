@@ -1,5 +1,5 @@
 # bolt-demo
-A quick bolt demo to fix some issues with the classroom Windows machines machines.
+A quick bolt demo to check the the classroom machines
 
 # What does it do
 * Uses [chocolatey](https://chocolatey.org/) to install openssh.
@@ -8,14 +8,29 @@ A quick bolt demo to fix some issues with the classroom Windows machines machine
 * Forces a restart **this will kick out any logged in users**.
 
 # What you need to do
-A git clone of this should give you everything you need, you just need to ensure all your target nodes are listed under **nodes** and set the **password** in the inventory.yaml. 
-**DO NOT INCLUDE THE HOST YOU ARE RUNNING THIS FROM IN THE INVENTORY**
+Install bolt ```sudo yum install puppet-bolt --nogpgcheck -y```
+Follow the instructions on https://puppet.com/docs/bolt/latest/getting_started_with_bolt.html to setup a bolt project.
+Copy the inventory.yaml into a text editor 
+* Do a find and replace to update the hostnames with the classroom name
+* Add in the Windows login details.
+* Copy the file into the inventory.yaml file of the Bolt project.
+**The student0 machines are intentionaly left out**
 
-# How to run it
-```
-bolt script run fix.ps1 --targets windows
-bolt command run uptime --targets linux
-```
+## Linux machines
+Check the linux machines are all up ```bolt command run uptime --targets linux```
 
-# notes
-https://puppet.com/docs/bolt/latest/getting_started_with_bolt.html
+## Windows machines
+check the windows machines are up ```bolt command run 'choco --version' --targets windows```
+
+# Get the classroom machines thorough the first few lessons.
+There may be a time when you just need to get all the machines connected to the PE server.
+## Linux
+To install Bolt on all the Linux machines run ```bolt command run 'yum install puppet-bolt --nogpgcheck -y' --targets linux```
+To install the Puppet agent on all the Linux machines first make the remote script executable ```bolt command run 'chmod +x /home/centos/install_pe_agent.sh' --targets linux```
+Then install it ```bolt command run '/home/centos/install_pe_agent.sh' --targets linux```
+
+## Windows
+Tho install Bolt on all the Windows machines ```bolt command run 'choco install puppet-bolt' --targets windows```
+
+
+
