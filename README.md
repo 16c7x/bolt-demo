@@ -2,7 +2,7 @@
 A quick bolt demo to check the the classroom machines
 
 # What you need to do
-Install bolt on the student0 machine ```sudo yum install puppet-bolt --nogpgcheck -y``` 
+Install bolt on the student0 machine ```sudo yum install puppet-bolt --nogpgcheck -y```. 
 Follow the instructions on https://puppet.com/docs/bolt/latest/getting_started_with_bolt.html to setup a bolt project.
 Copy the inventory.yaml into a text editor 
 * Do a find and replace to update the hostnames with the classroom name
