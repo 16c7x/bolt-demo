@@ -31,7 +31,7 @@ groups:
     ssh: 
       user: centos
       run-as: root
-      private_key: /path/to/key
+      private-key: /path/to/key
       host-key-check: false
   targets:
   - 2424nix1.classroom.puppet.com
