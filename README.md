@@ -19,12 +19,12 @@ check the windows machines are up ```bolt command run 'choco --version' --target
 # Get the classroom machines thorough the first few lessons.
 There may be a time when you just need to get all the machines connected to the PE server.
 ## Linux
-To install Bolt on all the Linux machines run ```bolt command run 'yum install puppet-bolt --nogpgcheck -y' --targets linux```
-To install the Puppet agent on all the Linux machines first make the remote script executable ```bolt command run 'chmod +x /home/centos/install_pe_agent.sh' --targets linux```
-Then install it ```bolt command run '/home/centos/install_pe_agent.sh' --targets linux```
+* To install Bolt on all the Linux machines run ```bolt command run 'yum install puppet-bolt --nogpgcheck -y' --targets linux```
+* To install the Puppet agent on all the Linux machines first make the remote script executable ```bolt command run 'chmod +x /home/centos/install_pe_agent.sh' --targets linux```
+* Then install it ```bolt command run '/home/centos/install_pe_agent.sh' --targets linux```
 
 ## Windows
-Tho install Bolt on all the Windows machines ```bolt command run 'choco install puppet-bolt' --targets windows```
+* To install Bolt on all the Windows machines ```bolt command run 'choco install puppet-bolt' --targets windows```
 
 
 
