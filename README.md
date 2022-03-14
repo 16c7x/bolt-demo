@@ -25,6 +25,7 @@ There may be a time when you just need to get all the machines connected to the 
 
 ## Windows
 * To install Bolt on all the Windows machines ```bolt command run 'choco install puppet-bolt' --targets windows```
+* To install the Puppet agent ```bolt command run 'cd ..; ./install_pe_agent.ps1' --targets windows```
 
 
 
