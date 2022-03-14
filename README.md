@@ -16,7 +16,7 @@ Check the linux machines are all up ```bolt command run uptime --targets linux``
 ## Windows machines
 check the windows machines are up ```bolt command run 'choco --version' --targets windows```
 
-# Get the classroom machines thorough the first few lessons.
+# Get the classroom machines through the first few lessons.
 There may be a time when you just need to get all the machines connected to the PE server.
 ## Linux
 * To install Bolt on all the Linux machines run ```bolt command run 'yum install puppet-bolt --nogpgcheck -y' --targets linux```
