@@ -1,12 +1,6 @@
 # bolt-demo
 A quick bolt demo to check the the classroom machines
 
-# What does it do
-* Uses [chocolatey](https://chocolatey.org/) to install openssh.
-* Uses [chocolatey](https://chocolatey.org/) to upgrade the pdk.
-* Uninstalls Windows Defender.
-* Forces a restart **this will kick out any logged in users**.
-
 # What you need to do
 Install bolt ```sudo yum install puppet-bolt --nogpgcheck -y```
 Follow the instructions on https://puppet.com/docs/bolt/latest/getting_started_with_bolt.html to setup a bolt project.
